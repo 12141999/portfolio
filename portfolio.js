@@ -72,6 +72,6 @@ app.post('/signup', function(req, res){
 
   
 
-app.listen('1414',function(){
+app.listen('80',function(){
 	console.log("sever is started");
 });
