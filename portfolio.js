@@ -1,21 +1,13 @@
 
 var express = require("express");
 var path=require('path');
-var methodOverride = require("method-override");
 var nodemailer=require('nodemailer');
 var request = require("request");
 var app = express();
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
- mongoose.connect("mongodb://localhost/yelp_camp");
 app.use(bodyParser.urlencoded({extended : true}));
 app.use('', express.static(path.join(__dirname + '')));
 app.set('views', path.join(__dirname, 'views'));
-
-
-var mongoose = require('mongoose');
- mongoose.connect("mongodb://localhost/cat_app");
-app.use(methodOverride("_method"));
 
 app.get("/",function(req,res){
 	 request("https://maps.googleapis.com/maps/api/geocode/json?address=jaypee+institute+of+information+tecnology+noida+sector-62+A-10&key=AIzaSyBfeJEhYBehzdv61AfFCdcqwZ_J2DcrzWM",function(error,response,body){
