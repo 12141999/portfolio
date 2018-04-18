@@ -66,7 +66,7 @@ app.post('/signup', function(req, res){
         	return console.log(error);
     	}
     	console.log('Message sent: ' + info.response);
-    	res.end("Submitted Successfully!");
+    	res.redirect("/");
 	});
 });
 
