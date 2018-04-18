@@ -1,0 +1,82 @@
+body {
+	background-color: black;
+	/*background-image: url(https://ak8.picdn.net/shutterstock/videos/4141558/thumb/1.jpg);
+	background-position: cover;*/
+	overflow-x : hidden;
+}
+
+#section4 {
+	background-color: black;
+}
+
+.section2 {
+	background-color: black;
+	text-decoration-color: white;
+}
+
+.section2 #home1 {
+   margin-top: -130px;
+   font-family: 'Poiret One', cursive;
+   font-family: 'Alfa Slab One', cursive;
+}
+
+.section2 #line{
+	text-align: center;
+}
+
+hr {
+	text-align: center;
+	width: 60%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.section2 #home1,.section2 #home2,.section2 #home3{
+	color: white;
+}
+
+.section2 #home2 {
+	margin-top: 7%; 
+	font-family: 'Rancho', cursive;
+    font-family: 'Lateef', cursive;
+    font-family: 'Bungee', cursive;
+}
+
+.section2 #home3{
+	margin-top: 7%; 
+	/*font-family: 'Poiret One', cursive;*/
+	font-family: 'Rancho', cursive;
+     font-family: 'Lateef', cursive;
+}
+
+.section2 #home2 {
+    animation-duration: 1s; 
+	animation-name: slidemu;
+}
+
+@keyframes slidemu {
+    from {
+    margin-top: -100%;
+   /* width: 100%; */
+  }
+
+  to {
+    margin-top:7%;
+    /*width: 100%;*/
+  }
+}
+
+#section5 {
+	color: white;
+}
+
+#clg {
+	font-family: 'Berkshire Swash', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Boogaloo', cursive;
+}
+
+#gmap #map {
+	width:100%;
+	height:400px;
+}

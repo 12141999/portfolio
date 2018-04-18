@@ -1,0 +1,345 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
+#section1 {
+  color: white;
+  background-color: black;
+  margin-top: 80px;
+}
+
+#section1 #computing #webdiv {
+  border-left: 5px solid white;
+}
+
+#section1 #computing #webdiv #web {
+    width: 60%;
+}
+
+
+/*resume1*/
+
+#section3 #colour #matter {
+  text-align: center;
+ 
+  animation-duration: 1s; 
+  /*animation-name: dechu;*/
+}
+
+@keyframes dechu {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+.text
+{
+  text-align: center;
+  color: black;
+}
+.box effect
+{
+
+  height: 80px;
+  width: 80px;
+  margin-right: 7px;
+  border-radius: 100px;
+  border: 5 px solid;
+  margin-top: 650px;
+  box-shadow: rgba(0,0,0,0.5) 10px 10px 20px;
+}
+#wrapper1
+{
+margin-top: 10%;
+  display:flex;
+  flex-direction: row;
+justify-content: space-around;
+align-items:center;
+}
+
+.box img {
+  border-radius: 30px;
+ 
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.box img:hover {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------  */
+
+
+#section3 {
+   background-color: black;
+   color: white;
+}
+
+
+.social {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+}
+
+.social1{
+  -webkit-transition: 1s ease;
+   /*background-size: 15%;*/
+  }
+
+.social1:hover{
+  -webkit-transform: scale(1.1);
+}
+
+.social2{
+ 
+  -webkit-transition: 1s ease;
+}
+
+.social2:hover{
+  -webkit-transform: scale(1.1);
+}
+
+.social3 img{
+height: 90px;
+width:  90px;
+  -webkit-transition: 1.2s ease;
+}
+
+.social3 img:hover{
+  -webkit-transform: scale(1.5);
+}
+
+.social4{
+-webkit-transition: 1s ease;
+ }
+
+ .social4:hover{
+  -webkit-transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/*//resume2 css*/
+
+#section1 #computing.active #programming >li{
+  color: black;
+  text-align: center;
+  animation-duration: 1s;
+  /*animation-name: slidea;*/
+
+}
+
+@keyframes slidea {
+  from {
+               
+                margin-left:  -150%;
+                width: 100%;
+            }
+        to {
+               
+                margin-left:  0%;
+                width: 100%;
+            }
+        }
+#section1 #computing.active #programming >li+li{
+  color: black;
+  text-align: center;
+  animation-duration: 1.5s; 
+  /*animation-name: slidea;*/
+}
+
+@keyframes slidea {
+       from {
+               
+                margin-left:  -150%;
+                width: 100%;
+            }
+        to {
+               
+                margin-left:  0%;
+                width: 100%;
+            }
+        }
+
+#section1 #computing.active #web >li{
+  color : black;
+  text-align: center;
+/* padding-top: 10%;*/
+  animation-duration: 1s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li{
+  color: black;
+  text-align: center;
+  animation-duration: 1.2s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li{
+  color: black;
+  text-align: center;
+ 
+  animation-duration: 1.4s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li+li{
+  color: black;
+  text-align: center;
+
+  animation-duration: 1.6s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li+li+li{
+  color: black;
+  text-align: center;
+
+  animation-duration: 1.8s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li+li+li+li{
+  color: black;
+  text-align: center;
+
+  animation-duration: 2s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li+li+li+li+li{
+  color: black;
+  text-align: center;
+
+  animation-duration: 2.2s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
+
+#section1 #computing.active #web >li+li+li+li+li+li+li+li{
+  color: black;
+  text-align: center;
+
+  animation-duration: 2.4s; 
+  /*animation-name: slide1;*/
+}
+
+@keyframes slide1 {
+    from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left :0%;
+    width: 100%;
+  }
+}
