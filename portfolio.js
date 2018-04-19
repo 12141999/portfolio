@@ -66,9 +66,11 @@ app.post('/signup', function(req, res){
         	return console.log(error);
     	}
     	console.log('Message sent: ' + info.response);
-    	res.redirect("/");
-	});
+      res.render("submit.ejs");
+   });
 });
+
+
 
   
 var port = process.env.PORT || 5000;
